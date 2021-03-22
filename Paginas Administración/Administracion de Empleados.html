@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Administración de Empleados</title>
+<style type="text/css" media="screen">
+@import url("css/dist/siimple.css");
+</style>
+</head>
+<body>
+<div class="siimple-layout"> 
+  <!-- Navbar -->
+  <div class="siimple-navbar siimple-navbar--primary siimple-navbar--extra-large siimple--clearfix"> 
+    <!-- Left menu -->
+    <div class="siimple--float-left"> <a class="siimple-navbar-title">USC</a> <a class="siimple-navbar-subtitle">| Examenes Médicos de Ingreso</a> </div>
+    <!-- Right menu -->
+    <div class="siimple--float-right"> <a class="siimple-navbar-link">Salir</a> </div>
+  </div>
+  <div class="siimple-jumbotron siimple-jumbotron--primary siimple-jumbotron--extra-large" style="background-image: url('images/slider-paginawebusc.png'); background-repeat: no-repeat;  width: 100%;
+  ">
+    <div class="siimple-jumbotron-title">Administración de Empleados</div>
+  </div>
+</div>
+<br>
+<div align="center" class="siimple--bg-light">
+  <label class="siimple-label">Escoja si desea Agregar o Eliminar un Empleado Encargado </label>
+  <br>
+  <select class="siimple-select" name="seleccionAccion">
+    <option selected value="0"> Elige una opción </option>
+    <option value="Agendar">Agregar</option>
+    <option value="Cancelar">Eliminar</option>
+  </select>
+  <br>
+  <br>
+</div>
+<br>
+<div align="center">
+  <div>
+	<label class="siimple-label">Cédula:</label>
+    <input class="siimple-input" type="number" id="txtCedula" name="txtCedula">
+    <br>
+    <br>
+    <label class="siimple-label">Apellidos:</label>
+    <input class="siimple-input" type="text" id="txtApellidos" name="txtApellidos">
+    <br>
+    <br>
+	<label class="siimple-label">Nombres:</label>
+    <input class="siimple-input" type="text" id="txtNombres" name="txtNombres">
+    <br>
+    <br>
+	<label class="siimple-label">Contraseña:</label>
+    <input class="siimple-input" type="password" id="txtContrasena" name="txtContrasena">
+    <br>
+    <br>
+    <button class="siimple-btn" id="btnAceptar">Aceptar</button>
+  </div>
+</div>
+<br>
+<br>
+</body>
+</html>
